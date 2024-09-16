@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -11,7 +12,9 @@ const Navbar = () => {
                 <h1 className='text-4xl text-blue-600 font-poppins tracking-tight'>Super Tools</h1>
             </div>
             <div className='flex items-center gap-x-10'>
-                <p className='text-[22px] font-poppins'>Home</p>
+                <Link to='/'>
+                    <p className='text-[22px] font-poppins'>Home</p>
+                </Link>
                 <p className='text-[22px] font-poppins'>About Super Tools</p>
                 <p className='text-[22px] font-poppins'>Contact Us</p>
                 <div className={`rounded-full bg-blue-500 h-10 flex gap-x-2 justify-center items-center px-3`}>
