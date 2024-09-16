@@ -1,11 +1,11 @@
 import React from 'react';
-import AiHuman from '../assets/ai-human.jpg';
+import BusinessWoman from '../assets/smiling-business-woman-w-laptop.png';
 
 const Hero = () => {
     return (
-        <div className='bg-gradient-to-r from-blue-900 to-blue-800 h-[500px] px-20 flex gap-x-20 items-center justify-between'>
+        <div className='bg-gradient-to-r from-blue-900 to-blue-800 h-[480px] px-14 flex flex-row gap-x-16 items-center justify-between'>
             {/* Text Section */}
-            <div className='w-7/12'>
+            <div className='w-7/12 mt-10'>
                 <h1 className='text-[48px] font-bold font-poppins text-white leading-tight tracking-wide'>
                     Get the Best AI-Powered Tools for Your Business
                 </h1>
@@ -13,7 +13,7 @@ const Hero = () => {
                     Take your business to the next level with cutting-edge AI tools designed to streamline your content creation process. Get accurate grammar checks, concise text summaries, and engaging content with our all-in-one platform.
                 </p>
                 {/* Search Bar */}
-                <div className='mt-10'>
+                <div className='mt-12'>
                     <div className='h-12'>
                         <input
                             type='text'
@@ -30,9 +30,9 @@ const Hero = () => {
             {/* Image or Illustration Section */}
             <div className='hidden lg:block w-5/12'>
                 <img
-                    src={AiHuman}
+                    src={BusinessWoman}
                     alt='AI tools illustration'
-                    className='h-[400px] w-full rounded-lg shadow-[0px_0px_5px_3px_rgb(23,37,84)]'
+                    className='h-[480px]'
                 />
             </div>
         </div>
