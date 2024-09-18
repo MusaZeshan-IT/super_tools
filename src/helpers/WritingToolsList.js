@@ -1,54 +1,58 @@
-// Writing Tools List
-
 const WritingToolsList = [
     {
         id: 1,
         toolName: "AI Grammar Checker",
         urlName: "ai-grammar-checker",
         iconName: "fa-graduation-cap",
-        toolDesc: "Instantly fix grammar and spelling errors with 99% accuracy using AI.",
-        toolFullDesc: "Our AI Grammar Checker helps you eliminate errors effortlessly with 99% accuracy, ensuring your writing is always polished and professional. Save time and improve clarity, making editing 5x faster.",
+        toolDesc: "Fix grammar and spelling errors instantly with AI.",
+        toolFullDesc: "Ensure flawless writing with 99% accuracy, saving time on editing while improving clarity and professionalism.",
+        task: "Effortlessly analyze and correct grammar, spelling, and punctuation errors to enhance writing clarity and professionalism with precise, AI-driven recommendations. Instantly elevate your content’s quality by removing language inconsistencies.",
     },
     {
         id: 2,
         toolName: "AI Content Writer",
         urlName: "ai-content-writer",
         iconName: "fa-newspaper",
-        toolDesc: "Generate engaging, high-quality content in seconds with AI.",
-        toolFullDesc: "Create compelling, SEO-friendly content 4x faster with our AI Content Writer. Effortlessly generate engaging articles, blogs, and copy that capture attention while boosting productivity and creativity by up to 60%.",
+        toolDesc: "Generate high-quality content quickly using AI.",
+        toolFullDesc: "Create engaging, SEO-optimized articles effortlessly. Boost productivity and craft captivating content that resonates.",
+        task: "Generate well-researched, SEO-friendly content that captivates audiences and drives engagement. Perfect for blogs, articles, and web copy, the AI Content Writer streamlines the creative process by producing polished drafts that align with your target audience’s interests.",
     },
     {
         id: 3,
         toolName: "AI Text Summarizer",
         urlName: "ai-text-summarizer",
         iconName: "fa-minimize",
-        toolDesc: "Summarize lengthy text into concise summaries in seconds.",
-        toolFullDesc: "Cut down reading time by up to 70% with our AI Text Summarizer, delivering concise, accurate summaries of any document or article in seconds. Enhance efficiency and retain key insights effortlessly.",
+        toolDesc: "Summarize lengthy text into concise summaries.",
+        toolFullDesc: "Condense long content into clear summaries, retaining essential details and speeding up information processing.",
+        task: "Transform dense, lengthy documents into concise, easy-to-digest summaries while preserving key insights and vital information. Ideal for creating executive summaries or simplifying complex reports, ensuring critical data is delivered efficiently.",
     },
     {
         id: 4,
         toolName: "AI Code Explainer",
         urlName: "ai-code-explainer",
         iconName: "fa-laptop-code",
-        toolDesc: "Get clear, concise explanations of code with AI assistance.",
-        toolFullDesc: "Our AI Code Explainer breaks down complex code into easy-to-understand explanations, helping you improve comprehension by 80%. Speed up your learning and debugging process while enhancing code quality and understanding.",
+        toolDesc: "Get concise code explanations using AI.",
+        toolFullDesc: "Translate complex code into simple explanations, enhancing comprehension and speeding up learning.",
+        task: "Break down complex algorithms and code snippets into easy-to-understand explanations. Perfect for developers at all levels, this tool demystifies code, accelerates learning, and provides in-depth insights into programming logic.",
     },
     {
         id: 5,
         toolName: "AI Translator",
         urlName: "ai-translator",
         iconName: "fa-language",
-        toolDesc: "Translate text accurately across multiple languages with AI.",
-        toolFullDesc: "Translate text with up to 95% accuracy using our AI Translator, supporting over 100 languages. Communicate globally and break language barriers faster, making translations 3x more efficient and accurate.",
+        toolDesc: "Translate text across multiple languages.",
+        toolFullDesc: "Break language barriers with precise translations for effective communication across 100+ languages.",
+        task: "Achieve accurate and nuanced translations across more than 100 languages. Whether translating technical documents, casual conversations, or creative content, the AI Translator ensures precise meaning and tone are preserved, fostering seamless global communication.",
     },
     {
         id: 6,
         toolName: "AI Story Generator",
         urlName: "ai-story-generator",
         iconName: "fa-book-open-reader",
-        toolDesc: "Create captivating stories instantly with AI assistance in seconds.",
-        toolFullDesc: "Generate imaginative and compelling stories 5x faster with our AI Story Generator. Elevate your storytelling, boost creativity, and save hours while producing unique, engaging narratives with ease.",
+        toolDesc: "Create captivating stories instantly.",
+        toolFullDesc: "Craft imaginative narratives effortlessly, enhancing creativity and producing engaging content.",
+        task: "Generate compelling and imaginative stories that capture attention and inspire readers. Whether you need a short narrative or a complex plotline, the AI Story Generator empowers creativity with vivid storytelling elements and cohesive structures.",
     },
-]
+];
 
 export default WritingToolsList;

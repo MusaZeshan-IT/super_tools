@@ -3,10 +3,11 @@ import Tool from './Tool';
 import WritingToolsList from '../helpers/WritingToolsList';
 
 const WritingTools = () => {
+
     return (
         <div>
             <div className='flex flex-col items-center'>
-                <h2 className='text-center font-poppins text-gray-500 font-semibold text-2xl'>AI Writing Tools</h2>
+                <h2 className='text-center font-poppins text-blue-500 font-semibold text-2xl'>AI Writing Tools</h2>
                 <h3 className='text-center font-poppins font-bold text-gray-700 text-4xl mt-2'>Super Tools - AI Generator Tools</h3>
                 <p className='font-poppins mt-3 text-gray-600 text-lg text-center w-11/12'>
                     Write smarter and faster with AI, boosting productivity by 60% and creating top-tier, compelling content 5x quicker. Save time, unlock creativity, and focus on delivering impactful results effortlessly!
