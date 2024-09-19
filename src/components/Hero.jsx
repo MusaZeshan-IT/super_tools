@@ -3,10 +3,10 @@ import BusinessWoman from '../assets/smiling-business-woman-w-laptop.png';
 
 const Hero = () => {
     return (
-        <div className='bg-gradient-to-r from-blue-900 to-blue-800 h-[480px] px-14 flex flex-row gap-x-16 items-center justify-between'>
+        <div className='bg-gradient-to-r from-blue-900 to-blue-800 h-fit py-6 lg:px-14 md:px-10 px-6 flex flex-row gap-x-16 items-center justify-between'>
             {/* Text Section */}
-            <div className='w-7/12 mt-10'>
-                <h1 className='text-[48px] font-bold font-poppins text-white leading-tight tracking-wide'>
+            <div className='lg:w-7/12 mt-10'>
+                <h1 className='text-[48px] font-bold font-poppins text-white sm:leading-tight leading-[1.1] tracking-wide'>
                     Get the Best AI-Powered Tools for Your Business
                 </h1>
                 <p className='text-[18px] text-gray-200 mt-4 font-poppins leading-relaxed'>
@@ -14,13 +14,13 @@ const Hero = () => {
                 </p>
                 {/* Search Bar */}
                 <div className='mt-12'>
-                    <div className='h-12'>
+                    <div className='h-12 flex'>
                         <input
                             type='text'
                             placeholder='Search for AI tools...'
-                            className='px-4 h-full font-poppins rounded-l-md text-gray-700 w-[280px] focus:outline-none'
+                            className='px-4 h-full font-poppins rounded-l-md text-gray-700 sm:w-[280px] focus:outline-none'
                         />
-                        <button className='px-6 h-full bg-amber-600 text-white tracking-wide rounded-r-md hover:bg-amber-500'>
+                        <button className='sm:px-6 px-4 h-full bg-amber-600 text-white tracking-wide rounded-r-md hover:bg-amber-500'>
                             Search
                         </button>
                     </div>
@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
 
             {/* Image or Illustration Section */}
-            <div className='hidden lg:block w-5/12'>
+            <div className='hidden lg:block lg:w-5/12'>
                 <img
                     src={BusinessWoman}
                     alt='AI tools illustration'

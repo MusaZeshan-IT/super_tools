@@ -1,3 +1,5 @@
+// Writing Tools List
+
 const WritingToolsList = [
     {
         id: 1,
@@ -6,7 +8,7 @@ const WritingToolsList = [
         iconName: "fa-graduation-cap",
         toolDesc: "Fix grammar and spelling errors instantly with AI.",
         toolFullDesc: "Ensure flawless writing with 99% accuracy, saving time on editing while improving clarity and professionalism.",
-        task: "Effortlessly analyze and correct grammar, spelling, and punctuation errors to enhance writing clarity and professionalism with precise, AI-driven recommendations. Instantly elevate your content’s quality by removing language inconsistencies.",
+        task: "Correct grammar, spelling, and punctuation errors in the provided text.",
     },
     {
         id: 2,
@@ -15,7 +17,7 @@ const WritingToolsList = [
         iconName: "fa-newspaper",
         toolDesc: "Generate high-quality content quickly using AI.",
         toolFullDesc: "Create engaging, SEO-optimized articles effortlessly. Boost productivity and craft captivating content that resonates.",
-        task: "Generate well-researched, SEO-friendly content that captivates audiences and drives engagement. Perfect for blogs, articles, and web copy, the AI Content Writer streamlines the creative process by producing polished drafts that align with your target audience’s interests.",
+        task: "Generate well-researched, SEO-friendly content that captivates audiences and drives engagement.",
     },
     {
         id: 3,
@@ -24,7 +26,7 @@ const WritingToolsList = [
         iconName: "fa-minimize",
         toolDesc: "Summarize lengthy text into concise summaries.",
         toolFullDesc: "Condense long content into clear summaries, retaining essential details and speeding up information processing.",
-        task: "Transform dense, lengthy documents into concise, easy-to-digest summaries while preserving key insights and vital information. Ideal for creating executive summaries or simplifying complex reports, ensuring critical data is delivered efficiently.",
+        task: "Summarize.",
     },
     {
         id: 4,
@@ -33,7 +35,7 @@ const WritingToolsList = [
         iconName: "fa-laptop-code",
         toolDesc: "Get concise code explanations using AI.",
         toolFullDesc: "Translate complex code into simple explanations, enhancing comprehension and speeding up learning.",
-        task: "Break down complex algorithms and code snippets into easy-to-understand explanations. Perfect for developers at all levels, this tool demystifies code, accelerates learning, and provides in-depth insights into programming logic.",
+        task: "Explain whatever code is provided to you.",
     },
     {
         id: 5,
@@ -42,7 +44,7 @@ const WritingToolsList = [
         iconName: "fa-language",
         toolDesc: "Translate text across multiple languages.",
         toolFullDesc: "Break language barriers with precise translations for effective communication across 100+ languages.",
-        task: "Achieve accurate and nuanced translations across more than 100 languages. Whether translating technical documents, casual conversations, or creative content, the AI Translator ensures precise meaning and tone are preserved, fostering seamless global communication.",
+        task: "Translate text accurately into the requested language. My very strict policy: Only provide the translated text and nothing else.",
     },
     {
         id: 6,
@@ -51,7 +53,7 @@ const WritingToolsList = [
         iconName: "fa-book-open-reader",
         toolDesc: "Create captivating stories instantly.",
         toolFullDesc: "Craft imaginative narratives effortlessly, enhancing creativity and producing engaging content.",
-        task: "Generate compelling and imaginative stories that capture attention and inspire readers. Whether you need a short narrative or a complex plotline, the AI Story Generator empowers creativity with vivid storytelling elements and cohesive structures.",
+        task: "Generate creative and engaging stories. I just need the story and not anything else, I don't want no introductory text, no comments, no remarks or anything except the story and this is a very strict order.",
     },
 ];
 

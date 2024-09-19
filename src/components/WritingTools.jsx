@@ -13,7 +13,7 @@ const WritingTools = () => {
                     Write smarter and faster with AI, boosting productivity by 60% and creating top-tier, compelling content 5x quicker. Save time, unlock creativity, and focus on delivering impactful results effortlessly!
                 </p>
             </div>
-            <div className='grid grid-cols-3 gap-10 mt-20'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-20'>
                 {WritingToolsList.map((tool) => (
                     <Tool
                         key={tool.id}
