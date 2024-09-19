@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='bg-blue-800 text-white py-8'>
             <div className='container mx-auto px-6'>
-                <div className='flex flex-col md:gap-10 gap-y-4 md:flex-row md:justify-between'>
+                <div className='flex flex-col md:gap-10 gap-y-4 md:flex-row'>
                     {/* Logo and Description */}
                     <div className='mb-6 md:mb-0 md:w-2/4'>
                         <h1 className='text-3xl font-poppins font-bold mb-2'>Super Tools</h1>
@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
 
                     {/* Navigation Links */}
-                    <div className='md:w-2/4 flex xs:flex-row flex-col xs:gap-x-20 justify-start'>
+                    <div className='md:w-2/4 flex xs:flex-row flex-col xs:gap-x-24 md:justify-end justify-start'>
                         <div className='flex flex-col md:flex-row mb-6 md:mb-0'>
                             <div className='flex flex-col mb-4 md:mb-0'>
                                 <h2 className='text-xl font-semibold mb-3'>Navigation</h2>
